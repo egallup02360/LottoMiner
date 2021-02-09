@@ -1,0 +1,359 @@
+I, [2021-01-25T00:43:09.269835 #28875]  INFO -- : [c8d57d72-9862-4e1f-80d8-b842979fe873] Started GET "/" for 127.0.0.1 at 2021-01-25 00:43:09 -0500
+I, [2021-01-25T00:43:09.272058 #28875]  INFO -- : [c8d57d72-9862-4e1f-80d8-b842979fe873] Processing by MainController#index as HTML
+I, [2021-01-25T00:43:09.293013 #28875]  INFO -- : [c8d57d72-9862-4e1f-80d8-b842979fe873]   Rendering main/index.html.erb within layouts/application
+I, [2021-01-25T00:43:09.294433 #28875]  INFO -- : [c8d57d72-9862-4e1f-80d8-b842979fe873]   Rendered main/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 482)
+I, [2021-01-25T00:43:09.296287 #28875]  INFO -- : [c8d57d72-9862-4e1f-80d8-b842979fe873] Completed 500 Internal Server Error in 24ms (Allocations: 3138)
+F, [2021-01-25T00:43:09.297215 #28875] FATAL -- : [c8d57d72-9862-4e1f-80d8-b842979fe873]   
+[c8d57d72-9862-4e1f-80d8-b842979fe873] ActionView::Template::Error (Webpacker can't find application in /Users/evangallup/Work/lottominer_config/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-0db040febbdef8c62ce7.js",
+  "application.js.map": "/packs/js/application-0db040febbdef8c62ce7.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-0db040febbdef8c62ce7.js"
+      ],
+      "js.map": [
+        "/packs/js/application-0db040febbdef8c62ce7.js.map"
+      ]
+    }
+  }
+}
+):
+[c8d57d72-9862-4e1f-80d8-b842979fe873]      5:     <%= csrf_meta_tags %>
+[c8d57d72-9862-4e1f-80d8-b842979fe873]      6:     <%= csp_meta_tag %>
+[c8d57d72-9862-4e1f-80d8-b842979fe873]      7: 
+[c8d57d72-9862-4e1f-80d8-b842979fe873]      8:     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[c8d57d72-9862-4e1f-80d8-b842979fe873]      9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+[c8d57d72-9862-4e1f-80d8-b842979fe873]     10:   </head>
+[c8d57d72-9862-4e1f-80d8-b842979fe873]     11: 
+[c8d57d72-9862-4e1f-80d8-b842979fe873]   
+[c8d57d72-9862-4e1f-80d8-b842979fe873] app/views/layouts/application.html.erb:8
+I, [2021-01-25T00:43:09.457193 #28875]  INFO -- : [ce019c70-075a-45e1-bcc7-f439d958a495] Started GET "/favicon.ico" for 127.0.0.1 at 2021-01-25 00:43:09 -0500
+F, [2021-01-25T00:43:09.457805 #28875] FATAL -- : [ce019c70-075a-45e1-bcc7-f439d958a495]   
+[ce019c70-075a-45e1-bcc7-f439d958a495] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[ce019c70-075a-45e1-bcc7-f439d958a495]   
+[ce019c70-075a-45e1-bcc7-f439d958a495] actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[ce019c70-075a-45e1-bcc7-f439d958a495] actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[ce019c70-075a-45e1-bcc7-f439d958a495] railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+[ce019c70-075a-45e1-bcc7-f439d958a495] railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+[ce019c70-075a-45e1-bcc7-f439d958a495] activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[ce019c70-075a-45e1-bcc7-f439d958a495] activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+[ce019c70-075a-45e1-bcc7-f439d958a495] activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+[ce019c70-075a-45e1-bcc7-f439d958a495] railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+[ce019c70-075a-45e1-bcc7-f439d958a495] actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[ce019c70-075a-45e1-bcc7-f439d958a495] actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[ce019c70-075a-45e1-bcc7-f439d958a495] rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+[ce019c70-075a-45e1-bcc7-f439d958a495] rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+[ce019c70-075a-45e1-bcc7-f439d958a495] activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[ce019c70-075a-45e1-bcc7-f439d958a495] actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[ce019c70-075a-45e1-bcc7-f439d958a495] rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+[ce019c70-075a-45e1-bcc7-f439d958a495] actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:76:in `call'
+[ce019c70-075a-45e1-bcc7-f439d958a495] railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+[ce019c70-075a-45e1-bcc7-f439d958a495] puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+[ce019c70-075a-45e1-bcc7-f439d958a495] puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+[ce019c70-075a-45e1-bcc7-f439d958a495] puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+[ce019c70-075a-45e1-bcc7-f439d958a495] puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+[ce019c70-075a-45e1-bcc7-f439d958a495] puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+I, [2021-01-25T00:43:59.050100 #28875]  INFO -- : [b9b41813-6ad5-4f74-bde0-d4b724d0b17c] Started GET "/" for 127.0.0.1 at 2021-01-25 00:43:59 -0500
+I, [2021-01-25T00:43:59.050819 #28875]  INFO -- : [b9b41813-6ad5-4f74-bde0-d4b724d0b17c] Processing by MainController#index as HTML
+I, [2021-01-25T00:43:59.061225 #28875]  INFO -- : [b9b41813-6ad5-4f74-bde0-d4b724d0b17c]   Rendering main/index.html.erb within layouts/application
+I, [2021-01-25T00:43:59.061463 #28875]  INFO -- : [b9b41813-6ad5-4f74-bde0-d4b724d0b17c]   Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+I, [2021-01-25T00:43:59.062232 #28875]  INFO -- : [b9b41813-6ad5-4f74-bde0-d4b724d0b17c] Completed 500 Internal Server Error in 11ms (Allocations: 1382)
+F, [2021-01-25T00:43:59.062935 #28875] FATAL -- : [b9b41813-6ad5-4f74-bde0-d4b724d0b17c]   
+[b9b41813-6ad5-4f74-bde0-d4b724d0b17c] ActionView::Template::Error (Webpacker can't find application in /Users/evangallup/Work/lottominer_config/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-0db040febbdef8c62ce7.js",
+  "application.js.map": "/packs/js/application-0db040febbdef8c62ce7.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-0db040febbdef8c62ce7.js"
+      ],
+      "js.map": [
+        "/packs/js/application-0db040febbdef8c62ce7.js.map"
+      ]
+    }
+  }
+}
+):
+[b9b41813-6ad5-4f74-bde0-d4b724d0b17c]      5:     <%= csrf_meta_tags %>
+[b9b41813-6ad5-4f74-bde0-d4b724d0b17c]      6:     <%= csp_meta_tag %>
+[b9b41813-6ad5-4f74-bde0-d4b724d0b17c]      7: 
+[b9b41813-6ad5-4f74-bde0-d4b724d0b17c]      8:     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[b9b41813-6ad5-4f74-bde0-d4b724d0b17c]      9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+[b9b41813-6ad5-4f74-bde0-d4b724d0b17c]     10:   </head>
+[b9b41813-6ad5-4f74-bde0-d4b724d0b17c]     11: 
+[b9b41813-6ad5-4f74-bde0-d4b724d0b17c]   
+[b9b41813-6ad5-4f74-bde0-d4b724d0b17c] app/views/layouts/application.html.erb:8
+I, [2021-01-25T00:44:41.260335 #28875]  INFO -- : [c003feb6-22e4-43b1-8f71-c5dfc06ea220] Started GET "/" for 127.0.0.1 at 2021-01-25 00:44:41 -0500
+I, [2021-01-25T00:44:41.261209 #28875]  INFO -- : [c003feb6-22e4-43b1-8f71-c5dfc06ea220] Processing by MainController#index as HTML
+I, [2021-01-25T00:44:41.275177 #28875]  INFO -- : [c003feb6-22e4-43b1-8f71-c5dfc06ea220]   Rendering main/index.html.erb within layouts/application
+I, [2021-01-25T00:44:41.275344 #28875]  INFO -- : [c003feb6-22e4-43b1-8f71-c5dfc06ea220]   Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+I, [2021-01-25T00:44:41.276162 #28875]  INFO -- : [c003feb6-22e4-43b1-8f71-c5dfc06ea220] Completed 500 Internal Server Error in 15ms (Allocations: 1381)
+F, [2021-01-25T00:44:41.277083 #28875] FATAL -- : [c003feb6-22e4-43b1-8f71-c5dfc06ea220]   
+[c003feb6-22e4-43b1-8f71-c5dfc06ea220] ActionView::Template::Error (Webpacker can't find application in /Users/evangallup/Work/lottominer_config/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-0db040febbdef8c62ce7.js",
+  "application.js.map": "/packs/js/application-0db040febbdef8c62ce7.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-0db040febbdef8c62ce7.js"
+      ],
+      "js.map": [
+        "/packs/js/application-0db040febbdef8c62ce7.js.map"
+      ]
+    }
+  }
+}
+):
+[c003feb6-22e4-43b1-8f71-c5dfc06ea220]      5:     <%= csrf_meta_tags %>
+[c003feb6-22e4-43b1-8f71-c5dfc06ea220]      6:     <%= csp_meta_tag %>
+[c003feb6-22e4-43b1-8f71-c5dfc06ea220]      7: 
+[c003feb6-22e4-43b1-8f71-c5dfc06ea220]      8:     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[c003feb6-22e4-43b1-8f71-c5dfc06ea220]      9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+[c003feb6-22e4-43b1-8f71-c5dfc06ea220]     10:   </head>
+[c003feb6-22e4-43b1-8f71-c5dfc06ea220]     11: 
+[c003feb6-22e4-43b1-8f71-c5dfc06ea220]   
+[c003feb6-22e4-43b1-8f71-c5dfc06ea220] app/views/layouts/application.html.erb:8
+I, [2021-01-25T00:45:00.405784 #28985]  INFO -- : [7f5cc655-9823-4250-85a8-edea0966797d] Started GET "/" for 127.0.0.1 at 2021-01-25 00:45:00 -0500
+I, [2021-01-25T00:45:00.407156 #28985]  INFO -- : [7f5cc655-9823-4250-85a8-edea0966797d] Processing by MainController#index as HTML
+I, [2021-01-25T00:45:00.421200 #28985]  INFO -- : [7f5cc655-9823-4250-85a8-edea0966797d]   Rendering main/index.html.erb within layouts/application
+I, [2021-01-25T00:45:00.422413 #28985]  INFO -- : [7f5cc655-9823-4250-85a8-edea0966797d]   Rendered main/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 482)
+I, [2021-01-25T00:45:00.423767 #28985]  INFO -- : [7f5cc655-9823-4250-85a8-edea0966797d] Completed 500 Internal Server Error in 16ms (Allocations: 3136)
+F, [2021-01-25T00:45:00.424454 #28985] FATAL -- : [7f5cc655-9823-4250-85a8-edea0966797d]   
+[7f5cc655-9823-4250-85a8-edea0966797d] ActionView::Template::Error (Webpacker can't find application in /Users/evangallup/Work/lottominer_config/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-0db040febbdef8c62ce7.js",
+  "application.js.map": "/packs/js/application-0db040febbdef8c62ce7.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-0db040febbdef8c62ce7.js"
+      ],
+      "js.map": [
+        "/packs/js/application-0db040febbdef8c62ce7.js.map"
+      ]
+    }
+  }
+}
+):
+[7f5cc655-9823-4250-85a8-edea0966797d]      5:     <%= csrf_meta_tags %>
+[7f5cc655-9823-4250-85a8-edea0966797d]      6:     <%= csp_meta_tag %>
+[7f5cc655-9823-4250-85a8-edea0966797d]      7: 
+[7f5cc655-9823-4250-85a8-edea0966797d]      8:     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[7f5cc655-9823-4250-85a8-edea0966797d]      9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+[7f5cc655-9823-4250-85a8-edea0966797d]     10:   </head>
+[7f5cc655-9823-4250-85a8-edea0966797d]     11: 
+[7f5cc655-9823-4250-85a8-edea0966797d]   
+[7f5cc655-9823-4250-85a8-edea0966797d] app/views/layouts/application.html.erb:8
+I, [2021-01-25T00:46:25.219307 #28985]  INFO -- : [da0634df-9f32-43b9-acdd-531aec6f579a] Started GET "/" for 127.0.0.1 at 2021-01-25 00:46:25 -0500
+I, [2021-01-25T00:46:25.220220 #28985]  INFO -- : [da0634df-9f32-43b9-acdd-531aec6f579a] Processing by MainController#index as HTML
+I, [2021-01-25T00:46:25.232878 #28985]  INFO -- : [da0634df-9f32-43b9-acdd-531aec6f579a]   Rendering main/index.html.erb within layouts/application
+I, [2021-01-25T00:46:25.233097 #28985]  INFO -- : [da0634df-9f32-43b9-acdd-531aec6f579a]   Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+I, [2021-01-25T00:46:25.234138 #28985]  INFO -- : [da0634df-9f32-43b9-acdd-531aec6f579a] Completed 500 Internal Server Error in 14ms (Allocations: 1382)
+F, [2021-01-25T00:46:25.235198 #28985] FATAL -- : [da0634df-9f32-43b9-acdd-531aec6f579a]   
+[da0634df-9f32-43b9-acdd-531aec6f579a] ActionView::Template::Error (Webpacker can't find application in /Users/evangallup/Work/lottominer_config/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-0db040febbdef8c62ce7.js",
+  "application.js.map": "/packs/js/application-0db040febbdef8c62ce7.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-0db040febbdef8c62ce7.js"
+      ],
+      "js.map": [
+        "/packs/js/application-0db040febbdef8c62ce7.js.map"
+      ]
+    }
+  }
+}
+):
+[da0634df-9f32-43b9-acdd-531aec6f579a]      5:     <%= csrf_meta_tags %>
+[da0634df-9f32-43b9-acdd-531aec6f579a]      6:     <%= csp_meta_tag %>
+[da0634df-9f32-43b9-acdd-531aec6f579a]      7: 
+[da0634df-9f32-43b9-acdd-531aec6f579a]      8:     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[da0634df-9f32-43b9-acdd-531aec6f579a]      9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+[da0634df-9f32-43b9-acdd-531aec6f579a]     10:   </head>
+[da0634df-9f32-43b9-acdd-531aec6f579a]     11: 
+[da0634df-9f32-43b9-acdd-531aec6f579a]   
+[da0634df-9f32-43b9-acdd-531aec6f579a] app/views/layouts/application.html.erb:8
+I, [2021-01-25T00:46:26.482258 #28985]  INFO -- : [12d09415-8e9c-4d09-9a29-33f836207c00] Started GET "/" for 127.0.0.1 at 2021-01-25 00:46:26 -0500
+I, [2021-01-25T00:46:26.482776 #28985]  INFO -- : [12d09415-8e9c-4d09-9a29-33f836207c00] Processing by MainController#index as HTML
+I, [2021-01-25T00:46:26.492836 #28985]  INFO -- : [12d09415-8e9c-4d09-9a29-33f836207c00]   Rendering main/index.html.erb within layouts/application
+I, [2021-01-25T00:46:26.493056 #28985]  INFO -- : [12d09415-8e9c-4d09-9a29-33f836207c00]   Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+I, [2021-01-25T00:46:26.493796 #28985]  INFO -- : [12d09415-8e9c-4d09-9a29-33f836207c00] Completed 500 Internal Server Error in 11ms (Allocations: 1381)
+F, [2021-01-25T00:46:26.494565 #28985] FATAL -- : [12d09415-8e9c-4d09-9a29-33f836207c00]   
+[12d09415-8e9c-4d09-9a29-33f836207c00] ActionView::Template::Error (Webpacker can't find application in /Users/evangallup/Work/lottominer_config/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-0db040febbdef8c62ce7.js",
+  "application.js.map": "/packs/js/application-0db040febbdef8c62ce7.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-0db040febbdef8c62ce7.js"
+      ],
+      "js.map": [
+        "/packs/js/application-0db040febbdef8c62ce7.js.map"
+      ]
+    }
+  }
+}
+):
+[12d09415-8e9c-4d09-9a29-33f836207c00]      5:     <%= csrf_meta_tags %>
+[12d09415-8e9c-4d09-9a29-33f836207c00]      6:     <%= csp_meta_tag %>
+[12d09415-8e9c-4d09-9a29-33f836207c00]      7: 
+[12d09415-8e9c-4d09-9a29-33f836207c00]      8:     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[12d09415-8e9c-4d09-9a29-33f836207c00]      9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+[12d09415-8e9c-4d09-9a29-33f836207c00]     10:   </head>
+[12d09415-8e9c-4d09-9a29-33f836207c00]     11: 
+[12d09415-8e9c-4d09-9a29-33f836207c00]   
+[12d09415-8e9c-4d09-9a29-33f836207c00] app/views/layouts/application.html.erb:8
+I, [2021-01-25T08:14:42.783154 #28985]  INFO -- : [48baf1ec-d6e1-4ac7-872a-7e9fbfe096fa] Started GET "/" for 127.0.0.1 at 2021-01-25 08:14:42 -0500
+I, [2021-01-25T08:14:42.783942 #28985]  INFO -- : [48baf1ec-d6e1-4ac7-872a-7e9fbfe096fa] Processing by MainController#index as HTML
+I, [2021-01-25T08:14:42.798752 #28985]  INFO -- : [48baf1ec-d6e1-4ac7-872a-7e9fbfe096fa]   Rendering main/index.html.erb within layouts/application
+I, [2021-01-25T08:14:42.798912 #28985]  INFO -- : [48baf1ec-d6e1-4ac7-872a-7e9fbfe096fa]   Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+I, [2021-01-25T08:14:42.799847 #28985]  INFO -- : [48baf1ec-d6e1-4ac7-872a-7e9fbfe096fa] Completed 500 Internal Server Error in 16ms (Allocations: 1381)
+F, [2021-01-25T08:14:42.800676 #28985] FATAL -- : [48baf1ec-d6e1-4ac7-872a-7e9fbfe096fa]   
+[48baf1ec-d6e1-4ac7-872a-7e9fbfe096fa] ActionView::Template::Error (Webpacker can't find application in /Users/evangallup/Work/lottominer_config/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-0db040febbdef8c62ce7.js",
+  "application.js.map": "/packs/js/application-0db040febbdef8c62ce7.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-0db040febbdef8c62ce7.js"
+      ],
+      "js.map": [
+        "/packs/js/application-0db040febbdef8c62ce7.js.map"
+      ]
+    }
+  }
+}
+):
+[48baf1ec-d6e1-4ac7-872a-7e9fbfe096fa]      5:     <%= csrf_meta_tags %>
+[48baf1ec-d6e1-4ac7-872a-7e9fbfe096fa]      6:     <%= csp_meta_tag %>
+[48baf1ec-d6e1-4ac7-872a-7e9fbfe096fa]      7: 
+[48baf1ec-d6e1-4ac7-872a-7e9fbfe096fa]      8:     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[48baf1ec-d6e1-4ac7-872a-7e9fbfe096fa]      9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+[48baf1ec-d6e1-4ac7-872a-7e9fbfe096fa]     10:   </head>
+[48baf1ec-d6e1-4ac7-872a-7e9fbfe096fa]     11: 
+[48baf1ec-d6e1-4ac7-872a-7e9fbfe096fa]   
+[48baf1ec-d6e1-4ac7-872a-7e9fbfe096fa] app/views/layouts/application.html.erb:8
+I, [2021-01-25T12:44:47.010600 #28985]  INFO -- : [2d27cba0-43f6-4912-ae91-256258b15ee3] Started GET "/" for 127.0.0.1 at 2021-01-25 12:44:47 -0500
+I, [2021-01-25T12:44:47.109491 #28985]  INFO -- : [2d27cba0-43f6-4912-ae91-256258b15ee3] Processing by MainController#index as HTML
+I, [2021-01-25T12:44:47.136939 #28985]  INFO -- : [2d27cba0-43f6-4912-ae91-256258b15ee3]   Rendering main/index.html.erb within layouts/application
+I, [2021-01-25T12:44:47.137214 #28985]  INFO -- : [2d27cba0-43f6-4912-ae91-256258b15ee3]   Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+I, [2021-01-25T12:44:47.138503 #28985]  INFO -- : [2d27cba0-43f6-4912-ae91-256258b15ee3] Completed 500 Internal Server Error in 29ms (Allocations: 1390)
+F, [2021-01-25T12:44:47.139611 #28985] FATAL -- : [2d27cba0-43f6-4912-ae91-256258b15ee3]   
+[2d27cba0-43f6-4912-ae91-256258b15ee3] ActionView::Template::Error (Webpacker can't find application in /Users/evangallup/Work/lottominer_config/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-0db040febbdef8c62ce7.js",
+  "application.js.map": "/packs/js/application-0db040febbdef8c62ce7.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-0db040febbdef8c62ce7.js"
+      ],
+      "js.map": [
+        "/packs/js/application-0db040febbdef8c62ce7.js.map"
+      ]
+    }
+  }
+}
+):
+[2d27cba0-43f6-4912-ae91-256258b15ee3]      5:     <%= csrf_meta_tags %>
+[2d27cba0-43f6-4912-ae91-256258b15ee3]      6:     <%= csp_meta_tag %>
+[2d27cba0-43f6-4912-ae91-256258b15ee3]      7: 
+[2d27cba0-43f6-4912-ae91-256258b15ee3]      8:     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[2d27cba0-43f6-4912-ae91-256258b15ee3]      9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+[2d27cba0-43f6-4912-ae91-256258b15ee3]     10:   </head>
+[2d27cba0-43f6-4912-ae91-256258b15ee3]     11: 
+[2d27cba0-43f6-4912-ae91-256258b15ee3]   
+[2d27cba0-43f6-4912-ae91-256258b15ee3] app/views/layouts/application.html.erb:8
+I, [2021-01-25T12:45:04.870218 #28985]  INFO -- : [e4f971f6-03cc-4aab-80e6-11b44b438d83] Started GET "/" for 127.0.0.1 at 2021-01-25 12:45:04 -0500
+I, [2021-01-25T12:45:04.871055 #28985]  INFO -- : [e4f971f6-03cc-4aab-80e6-11b44b438d83] Processing by MainController#index as HTML
+I, [2021-01-25T12:45:04.883627 #28985]  INFO -- : [e4f971f6-03cc-4aab-80e6-11b44b438d83]   Rendering main/index.html.erb within layouts/application
+I, [2021-01-25T12:45:04.883809 #28985]  INFO -- : [e4f971f6-03cc-4aab-80e6-11b44b438d83]   Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+I, [2021-01-25T12:45:04.884467 #28985]  INFO -- : [e4f971f6-03cc-4aab-80e6-11b44b438d83] Completed 500 Internal Server Error in 13ms (Allocations: 1377)
+F, [2021-01-25T12:45:04.885202 #28985] FATAL -- : [e4f971f6-03cc-4aab-80e6-11b44b438d83]   
+[e4f971f6-03cc-4aab-80e6-11b44b438d83] ActionView::Template::Error (Webpacker can't find application in /Users/evangallup/Work/lottominer_config/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-0db040febbdef8c62ce7.js",
+  "application.js.map": "/packs/js/application-0db040febbdef8c62ce7.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-0db040febbdef8c62ce7.js"
+      ],
+      "js.map": [
+        "/packs/js/application-0db040febbdef8c62ce7.js.map"
+      ]
+    }
+  }
+}
+):
+[e4f971f6-03cc-4aab-80e6-11b44b438d83]      5:     <%= csrf_meta_tags %>
+[e4f971f6-03cc-4aab-80e6-11b44b438d83]      6:     <%= csp_meta_tag %>
+[e4f971f6-03cc-4aab-80e6-11b44b438d83]      7: 
+[e4f971f6-03cc-4aab-80e6-11b44b438d83]      8:     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[e4f971f6-03cc-4aab-80e6-11b44b438d83]      9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+[e4f971f6-03cc-4aab-80e6-11b44b438d83]     10:   </head>
+[e4f971f6-03cc-4aab-80e6-11b44b438d83]     11: 
+[e4f971f6-03cc-4aab-80e6-11b44b438d83]   
+[e4f971f6-03cc-4aab-80e6-11b44b438d83] app/views/layouts/application.html.erb:8

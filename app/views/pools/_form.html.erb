@@ -1,0 +1,6 @@
+<%= simple_form_for @pool, wrapper: :input_group do |f| %>
+  <%= f.input :url, prepend: "stratum+tcp://" %>
+  <%= f.input :user %>
+  <%= f.input :pass %>
+  <%= f.button :submit, class: 'btn btn-secondary form-control' %>
+<% end %>

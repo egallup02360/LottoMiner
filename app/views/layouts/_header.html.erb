@@ -1,0 +1,33 @@
+<div class="jumbotron">
+  <h1 class="display-4">LottoMiner <%= image_tag("bitcoin_icon") %></h1>
+  <hr class="my-4">
+  <table class="table table-sm table-hover">
+    <thead>
+      <th>Miner</th>
+      <th>Uptime</th>
+      <th>Average Hashrate</th>
+      <th>Accepted Shares</th>
+      <th>Best Share</th>
+      <th>Found Blocks</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td><%= @summary["STATUS"].first["Description"] %></td>
+        <% t = @summary["SUMMARY"].first["Elapsed"]
+           mm, ss = t.divmod(60)
+           hh, mm = mm.divmod(60)
+           dd, hh = hh.divmod(24) %>
+        <td><%= "%d days, %d hours, %d minutes" % [dd, hh, mm, ss] %></td>
+        <td><%= @summary["SUMMARY"].first["MHS av"] %> MH/s</td>
+        <td><%= @summary["SUMMARY"].first["Accepted"] %></td>
+        <td><%= @best_share %></td>
+        <td><%= @summary["SUMMARY"].first["Found Blocks"] %></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="center">
+  <% flash.each do |message_type, message| %>
+    <div class="text-center alert alert-<%= message_type %>"><%= message.html_safe %></div>
+  <% end %>
+</div>

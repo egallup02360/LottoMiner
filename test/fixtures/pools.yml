@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cg_id: 1
+  url: MyString
+  user: MyString
+  pass: MyString
+  priority: 1
+
+two:
+  cg_id: 1
+  url: MyString
+  user: MyString
+  pass: MyString
+  priority: 1

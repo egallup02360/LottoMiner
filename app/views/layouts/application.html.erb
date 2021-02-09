@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lottominer</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div class="modal fade" id="mainModal" tabindex="-1" role="dialog" aria-labelledby="mainModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="mainModalLabel"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <i aria-hidden="true" class="fas fa-times text-secondary"></i>
+            </button>
+          </div>
+          <div class="modal-body a-unique-class">
+          </div>
+        </div>
+      </div>
+    </div>
+    <% unless @not_running %>
+      <%= render partial: 'layouts/header' %>
+      <%= yield %>
+    <% else %>
+      <div class="jumbotron">
+        <h1 class="display-4">CGMiner is not Running</h1>
+        <p class="lead">We have attempted to restart CGMiner, this page will automatically refresh when it is running.</p>
+        <script>setInterval(function() { location.reload() }, 3000);</script>
+      </div>
+    <% end %>
+  </body>
+</html>
