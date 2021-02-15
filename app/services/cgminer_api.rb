@@ -17,7 +17,8 @@ class CgminerApi
       s = TCPSocket.open(api_ip, api_port)
     rescue => e
       start_file = Rails.root.join('bin', 'start.sh')
-      %x{/bin/bash -c '#{start_file}'}
+      start_cgminer = `/bin/bash -c '#{start_file}'}`
+      puts "\n\n\n#{start_cgminer.inspect}\n\n\n"
       return "CGMiner is not running. Attempted a restart. #{e}"
     end
 
