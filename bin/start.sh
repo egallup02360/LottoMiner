@@ -1,1 +1,1 @@
-/bin/bash -c 'screen -d -m -S cgminer cgminer -c cgminer.conf'
+/bin/bash -c 'screen -dmS cgminer cgminer -c cgminer.conf'
