@@ -3,3 +3,4 @@ node_modules
 tmp
 public/packs
 db/development.sqlite3
+*.log

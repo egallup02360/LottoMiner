@@ -6,7 +6,7 @@ class CgminerApi
     api_command = command.split("|")
 
     if Rails.env.development?
-    	api_ip = "192.168.1.13"
+    	api_ip = "192.168.1.250"
     	api_port = 4028
     else
       api_ip = "127.0.0.1"
@@ -17,7 +17,7 @@ class CgminerApi
       s = TCPSocket.open(api_ip, api_port)
     rescue => e
       start_file = Rails.root.join('bin', 'start.sh')
-      start_cgminer = `/bin/bash -c '#{start_file}'}`
+      start_cgminer = `sh -c '#{start_file}'}`
       puts "\n\n\n#{start_cgminer.inspect}\n\n\n"
       return "CGMiner is not running. Attempted a restart. #{e}"
     end
