@@ -16,7 +16,10 @@ class CgminerApi
     begin
       s = TCPSocket.open(api_ip, api_port)
     rescue => e
-      system("sh -c 'service cgminer restart'") unless Rails.env.development?
+      unless Rails.env.development?
+        output = system("sh -c 'service cgminer restart'")
+        puts "\n\n\n#{output}\n\n\n"
+      end
       return "CGMiner is not running. Attempted a restart. #{e}"
     end
 
@@ -30,7 +33,10 @@ class CgminerApi
     begin
       response = JSON.parse(response)
     rescue => e
-      system("sh -c 'service cgminer restart'") unless Rails.env.development?
+      unless Rails.env.development?
+        output = system("sh -c 'service cgminer restart'")
+        puts "\n\n\n#{output}\n\n\n"
+      end
       return "CGMiner is not running. Attempted a restart. #{e}"
     end
 
