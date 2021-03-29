@@ -11,26 +11,21 @@ class PoolsController < ApplicationController
   end
 
   def edit
+    @pool = CgminerApi.call("pools")["POOLS"].first
+
     respond_to :js
   end
 
   def update
-    add_pool = CgminerApi.call("addpool|#{pool_params[:url]},#{pool_params[:user]},#{pool_params[:pass]}")
+    @pool = Pool.new(pool_params)
+    add_pool = CgminerApi.call("addpool|stratum+tcp://#{@pool.url},#{@pool.user},#{@pool.pass}")
     save_config = CgminerApi.call("save|#{Rails.root.join('cgminer.conf')}")
     pools = CgminerApi.call("pools")
     pools["POOLS"].each do |pool|
-      if pool_params[:url].url == pool["URL"]
-        CgminerApi.call("switchpool|#{pool["POOL"]}")
-        CgminerApi.call("save|#{Rails.root.join('cgminer.conf')}")
-      end
-    end
-    pools = CgminerApi.call("pools")
-    pools["POOLS"].each do |pool|
-      next if pool["Priority"] == 0
       remove_pool = CgminerApi.call("removepool|#{pool["POOL"]}")
     end
     CgminerApi.call("save|#{Rails.root.join('cgminer.conf')}")
-    flash[:success] = "Pool has been updated"
+    flash[:success] = "Pool has been updated. If the pool you see below is not the one you updated to, double check the settings you entered. The active pool will only update successfully if a connection can be made to it."
     redirect_to root_url
   end
 

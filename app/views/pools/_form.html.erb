@@ -1,4 +1,6 @@
-<%= simple_form_for Pool.new(), wrapper: :input_group do |f| %>
+
+
+<%= simple_form_for Pool.new(url: @pool["URL"].gsub("stratum+tcp://", ""), user: @pool["User"]), url: { action: :update, controller: :pools }, method: :patch, wrapper: :input_group do |f| %>
   <%= f.input :url, prepend: "stratum+tcp://" %>
   <%= f.input :user %>
   <%= f.input :pass %>
