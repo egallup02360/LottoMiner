@@ -2,38 +2,25 @@
   <div class="container">
     <div class="row">
       <div class="col-md-10"><h2>Pools</h2></div>
-      <div class="col-md-2">
-        <% if @db_pools.size == 0 %>
-          <%= link_to new_pool_path, { remote: true, 'data-toggle' =>  "modal", 'data-target' => '#mainModal' } do %>
-            <i class="fas fa-plus-circle fa-2x float-right text-success"></i>
-          <% end %>
-        <% end %>
-      </div>
     </div>
     <table class="table table-sm table-hover">
       <thead>
-        <th>Priority</th>
         <th>URL</th>
         <th>User</th>
-        <th>Pass</th>
+        <th>Status</th>
         <th>Actions</th>
       </thead>
       <tbody>
-        <% @db_pools.each do |pool| %>
-          <tr data-id="<%= pool.id %>">
-            <td><%= pool.cg_id %></td>
-            <td><%= pool.url %></td>
-            <td><%= pool.user %></td>
-            <td><%= pool.pass %></td>
+        <% @pools.each do |pool| %>
+          <tr data-id="<%= pool["POOL"] %>">
+            <td><%= pool["URL"] %></td>
+            <td><%= pool["User"] %></td>
+            <td><%= pool["Status"] %></td>
             <td>
-              <% unless @db_pools.size == 1 || pool.cg_id.nil? %>
-                <%= link_to pool_path(pool), method: :delete, data: { confirm: 'Are you sure?' } do %>
-                  <i class="fas fa-trash text-danger"></i>
-                <% end %>
-              <% end %>
-              <%= link_to edit_pool_path(pool), { remote: true, 'data-toggle' =>  "modal", 'data-target' => '#mainModal' } do %>
+              <%= link_to edit_pool_path(0), { remote: true, 'data-toggle' =>  "modal", 'data-target' => '#mainModal' } do %>
                 <i class="far fa-edit text-success"></i>
               <% end %>
+            </td>
           </tr>
         <% end %>
       </tbody>

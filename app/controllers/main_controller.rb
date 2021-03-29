@@ -4,8 +4,8 @@ class MainController < ApplicationController
     if @summary.include?("CGMiner is not running.")
       @not_running = true
     else
-      @db_pools = Pool.order(:cg_id).to_a
       @best_share = @summary["SUMMARY"].first["Best Share"]
+      @pools = CgminerApi.call("pools")["POOLS"]
     end
   end
 

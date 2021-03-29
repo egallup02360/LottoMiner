@@ -18,7 +18,7 @@ class CgminerApi
     rescue => e
       unless Rails.env.development?
         output = system("sh -c 'service cgminer restart'")
-        puts "\n\n\n#{output}\n\n\n"
+        puts "\n\n\n#{output.inspect}\n\n\n"
       end
       return "CGMiner is not running. Attempted a restart. #{e}"
     end

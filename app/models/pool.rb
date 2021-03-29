@@ -15,6 +15,6 @@ class Pool < ApplicationRecord
 
   def add_pool
     add_pool = CgminerApi.call("addpool|#{self.url},#{self.user},#{self.pass}")
-    save_config = CgminerApi.call("save|#{Rails.root.join('bin', 'cgminer.conf')}")
+    save_config = CgminerApi.call("save|#{Rails.root.join('cgminer.conf')}")
   end
 end

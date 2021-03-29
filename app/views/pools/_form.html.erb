@@ -1,4 +1,4 @@
-<%= simple_form_for @pool, wrapper: :input_group do |f| %>
+<%= simple_form_for Pool.new(), wrapper: :input_group do |f| %>
   <%= f.input :url, prepend: "stratum+tcp://" %>
   <%= f.input :user %>
   <%= f.input :pass %>

@@ -16,3 +16,4 @@ Procfile.dev
 db/test.sqlite3
 log/development.log
 .rbenv-vars
+db/development.sqlite3
