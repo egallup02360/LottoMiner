@@ -3,6 +3,7 @@ import time
 import board
 import neopixel
 import atexit
+import signal
 
 # Choose an open pin connected to the Data In of the NeoPixel strip, i.e. board.D18
 # NeoPixels must be connected to D10, D12, D18 or D21 to work.
@@ -57,6 +58,7 @@ def turn_all_off():
     pixels.show()
 
 atexit.register(turn_all_off)
+signal.signal(signal.SIGTERM, turn_all_off)
 
 while True:
     rainbow_cycle(0.001)  # rainbow cycle with 1ms delay per step
