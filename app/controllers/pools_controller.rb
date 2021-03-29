@@ -19,7 +19,11 @@ class PoolsController < ApplicationController
   def update
     @pool = Pool.new(pool_params)
     add_pool = CgminerApi.call("addpool|stratum+tcp://#{@pool.url},#{@pool.user},#{@pool.pass}")
-    CgminerApi.call("switchpool|1")
+    save_config = CgminerApi.call("save|#{Rails.root.join('cgminer.conf')}")
+    pools = CgminerApi.call("pools")
+    pools["POOLS"].each do |pool|
+      CgminerApi.call("switchpool|#{pool["POOL"]}") if pool["URL"] == "stratum+tcp://#{@pool.url}" && pool["Status"] == "Alive"
+    end
     save_config = CgminerApi.call("save|#{Rails.root.join('cgminer.conf')}")
     pools = CgminerApi.call("pools")
     pools["POOLS"].each do |pool|
