@@ -24,5 +24,5 @@ rbenv exec bundle exec rails assets:precompile
 rbenv exec bundle exec rails webpacker:compile
 service lottominer-web restart
 if [ ! -f "LEDS_OFF" ]; then
-  service leds restart
+  service leds stop
 fi
