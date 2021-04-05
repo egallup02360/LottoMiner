@@ -25,5 +25,7 @@ class MainController < ApplicationController
       system("sh -c 'touch #{Rails.root.join('LEDS_OFF')}'")
       system("sh -c 'sudo service leds start'")
     end
+
+    redirect_to root_url
   end
 end
