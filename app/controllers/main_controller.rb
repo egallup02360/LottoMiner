@@ -19,9 +19,9 @@ class MainController < ApplicationController
 
   def toggle_leds
     if File.exist?(Rails.root.join('LEDS_OFF'))
-      system("sh -c 'start_leds.sh'")
+      system("sh #{Rails.root.join('start_leds.sh')}")
     else
-      system("sh -c 'stop_leds.sh'")
+      system("sh #{Rails.root.join('stop_leds.sh')}")
     end
 
     redirect_to root_url
