@@ -1,7 +1,15 @@
 <div class="jumbotron">
   <div class="row">
     <div class="col-md-6"><h1 class="display-4">LottoMiner <%= image_tag("bitcoin_icon.png") %></h1></div>
-    <div class="col-md-6"></div>
+    <div class="col-md-6">
+      <%= link_to toggle_leds_path, class: 'float-right', title: 'Toggle LEDs' do %>
+        <% if File.exist?(Rails.root.join('LEDS_OFF')) %>
+          <i class="fas fa-lightbulb fa-3x text-muted"></i>
+        <% else %>
+          <i class="far fa-lightbulb fa-3x text-success"></i>
+        <% end %>
+      <% end %>
+    </div>
   </div>
   <hr class="my-4">
   <table class="table table-sm table-hover">

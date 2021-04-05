@@ -16,4 +16,14 @@ class MainController < ApplicationController
     flash[:warning] = @response["STATUS"].first["Msg"] if @response["STATUS"].first["STATUS"] == "E"
     redirect_to root_url
   end
+
+  def toggle_leds
+    if File.exist?(Rails.root.join('LEDS_OFF'))
+      File.delete(Rails.root.join('LEDS_OFF'))
+      system("sh -c 'sudo service leds stop'")
+    else
+      system("sh -c 'touch #{Rails.root.join('LEDS_OFF')}'")
+      system("sh -c 'sudo service leds start'")
+    end
+  end
 end
