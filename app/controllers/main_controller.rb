@@ -20,10 +20,10 @@ class MainController < ApplicationController
   def toggle_leds
     if File.exist?(Rails.root.join('LEDS_OFF'))
       File.delete(Rails.root.join('LEDS_OFF'))
-      system("sh -c 'sudo service leds stop'")
+      system("service leds start")
     else
       system("sh -c 'touch #{Rails.root.join('LEDS_OFF')}'")
-      system("sh -c 'sudo service leds start'")
+      system("service leds start")
     end
 
     redirect_to root_url
