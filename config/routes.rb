@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  resources :pools, except: [:create, :destroy]
+  resources :pools, except: [:create]
+  get "/pools/:id/make_active", to: 'pools#make_active', as: 'make_pool_active'
   get "api_action/:payload", to: 'main#api_action', as: 'api_action'
 
   root 'main#index'

@@ -4,14 +4,17 @@ class PoolsController < ApplicationController
   end
 
   def new
-    @pool = Pool.new()
+    @model = Pool.new()
     @header = 'New Pool'
 
     respond_to :js
   end
 
   def edit
-    @pool = CgminerApi.call("pools")["POOLS"].first
+    unless params[:id].to_i == -1
+      @pool = CgminerApi.call("pools")["POOLS"].first
+      @model = Pool.new(url: @pool["URL"].gsub("stratum+tcp://", ""), user: @pool["User"])
+    end
 
     respond_to :js
   end
@@ -19,23 +22,30 @@ class PoolsController < ApplicationController
   def update
     @pool = Pool.new(pool_params)
     add_pool = CgminerApi.call("addpool|stratum+tcp://#{@pool.url},#{@pool.user},#{@pool.pass}")
-    save_config = CgminerApi.call("save|#{Rails.root.join('cgminer.conf')}")
-    pools = CgminerApi.call("pools")
-    pools["POOLS"].each do |pool|
-      CgminerApi.call("switchpool|#{pool["POOL"]}") if pool["URL"] == "stratum+tcp://#{@pool.url}" && pool["Status"] == "Alive"
+    save_config = CgminerApi.call("save|/root/LottoMiner/cgminer.conf")
+    flash[:success] = "Pool has been added."
+    redirect_to root_url
+  end
+
+  def make_active
+    CgminerApi.call("enablepool|#{params[:id]}")
+    pools = CgminerApi.call("pools")["POOLS"]
+    pools.each do |pool|
+      next if pool["POOL"].to_s == params[:id].to_s
+      CgminerApi.call("disablepool|#{pool["POOL"]}")
     end
-    save_config = CgminerApi.call("save|#{Rails.root.join('cgminer.conf')}")
-    pools = CgminerApi.call("pools")
-    pools["POOLS"].each do |pool|
-      remove_pool = CgminerApi.call("removepool|#{pool["POOL"]}")
-    end
-    CgminerApi.call("save|#{Rails.root.join('cgminer.conf')}")
-    flash[:success] = "Pool has been updated. If the pool you see below is not the one you updated to, double check the settings you entered. The active pool will only update successfully if a connection can be made to it."
+    CgminerApi.call("save|/root/LottoMiner/cgminer.conf")
+    flash[:success] = "Pool has been activated"
+    redirect_to root_url
+  end
+
+  def destroy
+    CgminerApi.call("removepool|#{params[:id]}")
+    flash[:success] = "Pool has been removed"
     redirect_to root_url
   end
 
   private
-
     def pool_params
       params.require(:pool).permit(:url, :user, :pass)
     end
