@@ -45,6 +45,7 @@ class PoolsController < ApplicationController
 
   def destroy
     CgminerApi.call("removepool|#{params[:id]}")
+    CgminerApi.call("save|/root/cgminer.conf")
     flash[:success] = "Pool has been removed"
     redirect_to root_url
   end
