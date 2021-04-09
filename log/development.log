@@ -18439,3 +18439,3458 @@ Processing by MainController#index as HTML
 Completed 200 OK in 76723ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 3183)
 
 
+Started GET "/" for 127.0.0.1 at 2021-03-31 14:53:33 -0400
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 699)
+  Rendered layouts/_header.html.erb (Duration: 3.3ms | Allocations: 803)
+Completed 200 OK in 338ms (Views: 37.0ms | ActiveRecord: 0.0ms | Allocations: 10560)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 14:53:38 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 168)
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 472)
+Completed 200 OK in 78ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 4022)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:30:27 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 699)
+  Rendered layouts/_header.html.erb (Duration: 2.5ms | Allocations: 803)
+Completed 200 OK in 261ms (Views: 29.2ms | ActiveRecord: 0.0ms | Allocations: 10568)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:30:30 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 168)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 472)
+Completed 200 OK in 182ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 4021)
+
+
+Started GET "/pools/0/make_active" for 127.0.0.1 at 2021-03-31 15:30:33 -0400
+Processing by PoolsController#make_active as HTML
+  Parameters: {"id"=>"0"}
+Redirected to http://127.0.0.1:5000/
+Completed 302 Found in 89ms (ActiveRecord: 0.0ms | Allocations: 1007)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:30:33 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 161)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 474)
+Completed 200 OK in 26ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 4047)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:30:35 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 83)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 472)
+Completed 200 OK in 26ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 3936)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:30:36 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 475)
+Completed 200 OK in 32ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 3938)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:30:37 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 83)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 472)
+Completed 200 OK in 27ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 3939)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:30:39 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 472)
+Completed 200 OK in 27ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 3925)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:30:40 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 472)
+Completed 200 OK in 24ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 4001)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:30:41 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 475)
+Completed 200 OK in 38ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 4008)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:30:43 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 472)
+Completed 200 OK in 27ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 4003)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:30:44 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 472)
+Completed 200 OK in 32ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 4010)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:30:45 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 472)
+Completed 200 OK in 38ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 3989)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:31:27 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 541)
+  Rendered layouts/_header.html.erb (Duration: 1.4ms | Allocations: 765)
+Completed 200 OK in 29ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 5865)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:31:51 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 534)
+  Rendered layouts/_header.html.erb (Duration: 1.2ms | Allocations: 765)
+Completed 200 OK in 73ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 5848)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:32:57 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 165)
+  Rendered layouts/_header.html.erb (Duration: 4.2ms | Allocations: 472)
+Completed 200 OK in 377ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 4015)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:33:51 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 179ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3157)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:33:55 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 10ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 3137)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:33:59 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 151ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3156)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:34:03 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 495ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 3155)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:34:07 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 184ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 3150)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:34:11 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 72ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 3159)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:34:15 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 77ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 3140)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:34:19 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 110ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 3441)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:34:22 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 194ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 3141)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:34:26 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 15ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 3172)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:34:30 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 16ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 3147)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:34:34 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 10ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 3148)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:34:38 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 16ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3139)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:34:42 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 21ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 3154)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:34:46 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 18ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 3141)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:34:50 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 11ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3159)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:34:54 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 17ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 3158)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:34:58 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 8ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3153)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:35:02 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 9ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 3147)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:35:06 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 11ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 3445)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:35:10 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 12ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 3481)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:35:14 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 19ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3492)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:35:18 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 12ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 3139)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:35:22 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 13ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 3492)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:35:26 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 9ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3156)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:35:30 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 14ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 3155)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:35:34 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 9ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 3149)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:35:38 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 8ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 3152)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:35:42 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 8ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 3139)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:35:46 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 3147)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:35:50 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 11ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 3444)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:35:54 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 12ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 3490)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:35:58 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 11ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 3159)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:36:02 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 50ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 3155)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:36:06 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 72ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 3161)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:36:10 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 32ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 3458)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 15:36:14 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 169)
+  Rendered layouts/_header.html.erb (Duration: 1.6ms | Allocations: 478)
+Completed 200 OK in 79ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 4024)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 16:04:53 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 539)
+  Rendered layouts/_header.html.erb (Duration: 3.5ms | Allocations: 766)
+Completed 200 OK in 294ms (Views: 33.7ms | ActiveRecord: 0.0ms | Allocations: 5879)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 16:04:57 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 165)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 473)
+Completed 200 OK in 292ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 4002)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 16:04:59 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 473)
+Completed 200 OK in 35ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 3999)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 16:06:18 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 1.3ms | Allocations: 473)
+Completed 200 OK in 379ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 4006)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 16:07:55 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 1.5ms | Allocations: 473)
+Completed 200 OK in 252ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 3995)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 17:39:14 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 1.9ms | Allocations: 476)
+Completed 200 OK in 278ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 4614)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 19:27:56 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 1.9ms | Allocations: 473)
+Completed 200 OK in 270ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 4600)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 22:16:00 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 4.1ms | Allocations: 473)
+Completed 200 OK in 122ms (Views: 26.2ms | ActiveRecord: 0.0ms | Allocations: 4611)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-31 23:18:29 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 5.0ms | Allocations: 473)
+Completed 200 OK in 111ms (Views: 32.9ms | ActiveRecord: 0.0ms | Allocations: 4585)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 00:26:12 -0400
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 1.4ms | Allocations: 476)
+Completed 200 OK in 255ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 4620)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 01:38:16 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 2.2ms | Allocations: 476)
+Completed 200 OK in 294ms (Views: 20.2ms | ActiveRecord: 0.0ms | Allocations: 4617)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 09:38:05 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 2.0ms | Allocations: 473)
+Completed 200 OK in 121ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 4609)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 09:38:07 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 473)
+Completed 200 OK in 44ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 4589)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 09:38:08 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 1.4ms | Allocations: 473)
+Completed 200 OK in 32ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 4579)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 09:38:10 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 476)
+Completed 200 OK in 34ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 4617)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 10:45:35 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 2.1ms | Allocations: 476)
+Completed 200 OK in 324ms (Views: 26.9ms | ActiveRecord: 0.0ms | Allocations: 4631)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 12:36:55 -0400
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 17.5ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 11.2ms | Allocations: 473)
+Completed 200 OK in 318ms (Views: 175.3ms | ActiveRecord: 0.0ms | Allocations: 4604)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:18:06 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 4.1ms | Allocations: 476)
+Completed 200 OK in 235ms (Views: 52.9ms | ActiveRecord: 0.0ms | Allocations: 4611)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 18:52:11 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 4.9ms | Allocations: 473)
+Completed 200 OK in 362ms (Views: 37.8ms | ActiveRecord: 0.0ms | Allocations: 4601)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 21:47:55 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 4.6ms | Allocations: 476)
+Completed 200 OK in 1253ms (Views: 30.4ms | ActiveRecord: 0.0ms | Allocations: 4604)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 22:00:13 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 6.4ms | Allocations: 473)
+Completed 200 OK in 389ms (Views: 46.2ms | ActiveRecord: 0.0ms | Allocations: 4590)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 22:51:14 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 2.2ms | Allocations: 476)
+Completed 200 OK in 63ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 4602)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 00:24:48 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 2.0ms | Allocations: 473)
+Completed 200 OK in 204ms (Views: 19.4ms | ActiveRecord: 0.0ms | Allocations: 4578)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 00:28:29 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 1.9ms | Allocations: 473)
+Completed 200 OK in 360ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 4620)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 00:28:32 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 1.8ms | Allocations: 473)
+Completed 200 OK in 150ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 4582)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 03:33:47 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 3.3ms | Allocations: 476)
+Completed 200 OK in 302ms (Views: 37.9ms | ActiveRecord: 0.0ms | Allocations: 4600)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:18:18 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 4)
+Completed 200 OK in 76718ms (Views: 31.4ms | ActiveRecord: 0.0ms | Allocations: 3896)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:19:55 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:20:15 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 22ms (Views: 18.8ms | ActiveRecord: 0.0ms | Allocations: 3674)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:20:36 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:20:57 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 13ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 3685)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76584ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 22882)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:21:18 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:21:42 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76762ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 18910)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:21:58 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 10ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 3669)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:22:24 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 76415ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 17966)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:22:40 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 3681)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 76771ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 28578)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:23:01 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:23:24 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76738ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 21768)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:23:42 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 3653)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:24:08 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76282ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 17888)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:24:24 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 13ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 3658)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76248ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 28537)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:24:45 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:25:06 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 3693)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76493ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 28675)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:25:32 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:25:48 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 3657)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76266ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 24812)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:26:08 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:26:32 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 3669)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76083ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 24710)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:26:57 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:27:13 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3666)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76101ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 24774)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:27:38 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:27:54 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 3667)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 4)
+Completed 200 OK in 76572ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 24769)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:28:19 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:28:36 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 3670)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76345ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 24795)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:29:00 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:29:18 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 3672)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76205ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 24860)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:29:42 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:29:59 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 3673)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76275ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 24816)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:30:25 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:30:41 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 3669)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76202ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 24758)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:31:06 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:31:22 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 3667)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76132ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 24792)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:31:47 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:32:03 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 3673)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76186ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 24782)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:32:28 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:32:44 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 3659)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76573ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 24798)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:33:09 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:33:25 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 3670)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76585ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 24833)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:33:51 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:34:07 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 3659)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 76117ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 24776)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:34:30 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:34:49 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 3667)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76181ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 24726)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:35:10 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:35:34 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76144ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 17948)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:35:51 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 3663)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:36:17 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76094ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 18035)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:36:33 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 3680)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76241ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 28623)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:36:58 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:37:14 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 3677)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76209ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 28592)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:37:39 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:37:55 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 3676)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76658ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 24831)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:38:15 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:38:40 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 76718ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 17973)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:38:57 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 3665)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:39:17 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76222ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 17977)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:39:38 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 3663)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76237ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 28533)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:39:58 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:40:22 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76151ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 21721)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:40:38 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 3657)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:41:02 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76092ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 17967)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:41:19 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3675)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76174ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 28608)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:41:40 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:42:02 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 3680)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76109ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 28633)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:42:22 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:42:46 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 76390ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 17971)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:43:02 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 3662)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:43:23 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76584ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 17965)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:43:43 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3669)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76261ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 28531)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:44:05 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:44:24 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 3669)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 76444ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 28544)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:44:46 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:45:06 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 8ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 3679)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76267ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 24799)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:45:29 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:45:50 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3660)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76397ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 24837)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:46:10 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:46:34 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76355ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 17967)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:46:53 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 3655)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:47:14 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76107ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 17956)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:47:37 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3673)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 76641ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 28545)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:48:03 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:48:19 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 3667)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76785ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 28525)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:48:44 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:49:00 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 3673)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76322ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 24785)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:49:24 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:49:40 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 3679)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 76330ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 24868)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:50:02 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:50:21 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 3686)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 76587ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 24873)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:50:47 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:51:03 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 3663)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76387ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 24845)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:51:23 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:51:46 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:52:03 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 3671)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76279ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 23765)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:52:24 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76604ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 18867)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:52:47 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 3661)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76852ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 29445)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:53:09 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:53:33 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76698ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 21755)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:53:50 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 3679)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:54:15 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76283ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 18001)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:54:30 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3666)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 76216ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 28629)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:54:56 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:55:11 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 3671)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76244ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 28622)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:55:37 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:55:54 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 3677)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76163ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 24769)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:56:16 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:56:40 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 77064ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 17907)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:56:55 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 3653)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:57:16 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 77629ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 17958)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:57:39 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 65ms (Views: 63.5ms | ActiveRecord: 0.0ms | Allocations: 3681)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 77336ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 28589)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:57:59 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:58:19 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 3668)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 76957ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 28669)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:58:42 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:59:00 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 3665)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 77193ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 24839)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:59:24 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 15:59:43 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 3665)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 80226ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 24824)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 16:00:05 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-02 16:00:24 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 3653)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 16:00:45 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 81849ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 25946)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 81483ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 16787)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 78750ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 11478)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 18:52:36 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 3.8ms | Allocations: 475)
+Completed 200 OK in 223ms (Views: 23.2ms | ActiveRecord: 0.0ms | Allocations: 4613)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 19:49:56 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 2.0ms | Allocations: 472)
+Completed 200 OK in 190ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 4586)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 21:40:51 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 15.0ms | Allocations: 475)
+Completed 200 OK in 396ms (Views: 57.1ms | ActiveRecord: 0.0ms | Allocations: 4605)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 22:40:09 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 14.1ms | Allocations: 539)
+  Rendered layouts/_header.html.erb (Duration: 7.2ms | Allocations: 770)
+Completed 200 OK in 148ms (Views: 52.3ms | ActiveRecord: 0.0ms | Allocations: 6469)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-02 23:40:12 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 165)
+  Rendered layouts/_header.html.erb (Duration: 3.9ms | Allocations: 475)
+Completed 200 OK in 150ms (Views: 43.2ms | ActiveRecord: 0.0ms | Allocations: 4612)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 00:33:35 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 4)
+Completed 200 OK in 26419ms (Views: 28.1ms | ActiveRecord: 0.0ms | Allocations: 3748)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 00:34:25 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 00:34:44 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 4)
+Completed 200 OK in 107ms (Views: 89.7ms | ActiveRecord: 0.0ms | Allocations: 3665)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 26732ms (Views: 32.0ms | ActiveRecord: 0.0ms | Allocations: 12680)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 00:35:06 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 1912224ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 3670)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 01:07:20 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 01:07:40 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 33ms (Views: 24.8ms | ActiveRecord: 0.0ms | Allocations: 3671)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 26487ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 12639)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 01:08:02 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 01:08:22 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 38ms (Views: 33.4ms | ActiveRecord: 0.0ms | Allocations: 3669)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 26815ms (Views: 23.1ms | ActiveRecord: 0.0ms | Allocations: 11694)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 01:08:45 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 01:09:05 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 30ms (Views: 28.0ms | ActiveRecord: 0.0ms | Allocations: 3677)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 26586ms (Views: 27.1ms | ActiveRecord: 0.0ms | Allocations: 11730)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 01:09:27 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 01:09:47 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 30ms (Views: 24.2ms | ActiveRecord: 0.0ms | Allocations: 3657)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 26434ms (Views: 19.5ms | ActiveRecord: 0.0ms | Allocations: 11681)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 01:10:09 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 01:10:29 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 30ms (Views: 25.1ms | ActiveRecord: 0.0ms | Allocations: 3680)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 26708ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 11771)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 01:10:49 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 01:52:50 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 3673)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 2520450ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 8631)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 01:53:11 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 01:53:31 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 25ms (Views: 22.2ms | ActiveRecord: 0.0ms | Allocations: 3669)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 26765ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 11706)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 01:53:53 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 01:54:13 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 0.0ms | Allocations: 3665)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 26823ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 11702)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 03:54:33 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 03:54:53 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 35ms (Views: 31.6ms | ActiveRecord: 0.0ms | Allocations: 3657)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 26811ms (Views: 21.0ms | ActiveRecord: 0.0ms | Allocations: 11718)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 03:55:15 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 804763ms (Views: 446.0ms | ActiveRecord: 0.0ms | Allocations: 3668)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:09:02 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:09:22 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 14ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 3679)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26707ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 11759)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:09:43 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:10:03 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26665ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 4898)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:10:23 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 3661)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26742ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 15518)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:10:44 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:11:04 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 3672)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26713ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 11685)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:11:25 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:11:46 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 3675)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26483ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 11689)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:12:06 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:12:27 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 3669)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26723ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 11733)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:12:48 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:13:08 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 3672)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26970ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 11747)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:13:28 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:13:49 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 3671)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 26485ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 11749)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:14:09 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:14:29 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 3671)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26746ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 11759)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:14:50 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:15:11 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 3671)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26480ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 11699)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:15:32 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:15:51 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 3651)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 27112ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 11656)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:16:13 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:16:33 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 3662)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26360ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 11740)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:16:54 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:17:14 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 9ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 3679)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26370ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 11746)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:17:34 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:17:55 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 3663)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26515ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 11728)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:18:17 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:18:36 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 3668)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26406ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 11733)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:18:57 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:19:17 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 3675)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26766ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 11693)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:19:39 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:19:58 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26891ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 4895)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:20:19 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 3661)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 26599ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 15477)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:20:40 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:21:01 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 3673)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26994ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 11752)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:21:21 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:21:42 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 3685)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 28075ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 11773)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:22:03 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:22:22 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 3659)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 27780ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 11734)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:22:44 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:23:03 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3675)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 27937ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 11759)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:23:25 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:23:44 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 3669)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26582ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 11679)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:24:05 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:24:26 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 3672)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 28080ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 11747)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:24:47 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:25:07 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26660ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 4910)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:25:27 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3669)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26719ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 15533)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:25:48 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:26:09 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 3659)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 26572ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 11712)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:26:30 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:26:50 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 3681)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26814ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 11760)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:27:11 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:27:31 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 3682)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26603ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 11749)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:27:51 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:28:11 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 3684)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26553ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 11768)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:28:33 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:28:53 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 3677)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26947ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 11704)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:29:14 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:29:34 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 3680)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26673ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 11756)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:29:55 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:30:15 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 3664)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 27134ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 11719)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:30:35 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:30:55 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 3678)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 27159ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 11750)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:31:16 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:31:37 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 3661)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 26732ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 11749)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:31:58 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:32:18 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 3691)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26678ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 11779)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:32:39 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:32:59 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 3683)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26534ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 11706)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:33:21 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:33:41 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 3657)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26880ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 11721)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:34:01 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:34:22 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 3667)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26627ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 11719)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:34:43 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:35:02 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26881ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 4917)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:35:22 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 3665)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26653ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 15540)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:35:44 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:36:04 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 3683)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 27278ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 11768)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:36:25 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:36:45 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 3671)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26724ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 11698)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:37:05 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:37:26 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 3663)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 27000ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 11719)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:37:47 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:38:06 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 3663)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26788ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 11716)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:38:27 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:38:47 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 3675)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 27284ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 11701)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:39:09 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:39:28 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 3679)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26664ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 11766)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:39:50 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:40:10 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 3683)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 26486ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 11754)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:40:30 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:40:51 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 3680)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 27322ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 11711)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:41:12 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:41:32 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 3670)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26490ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 11745)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:41:53 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:42:13 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 3673)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 26728ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 11746)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:42:33 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:42:54 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 3687)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26542ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 11774)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:43:15 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:43:34 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 3677)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26684ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 11754)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:43:55 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:44:15 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 3669)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26548ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 11736)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:44:37 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:44:56 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 3669)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26516ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 11687)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:45:14 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:45:17 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:45:38 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 3679)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26449ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 13850)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 26557ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 16476)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:45:59 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:46:20 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 29ms (Views: 26.5ms | ActiveRecord: 0.0ms | Allocations: 3677)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 26517ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 11766)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 04:46:42 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 2132115ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 3697)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 05:22:35 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 05:22:55 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 0.0ms | Allocations: 3682)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 26799ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 11726)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 05:23:17 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 05:23:37 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 21ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 3664)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 26837ms (Views: 18.5ms | ActiveRecord: 0.0ms | Allocations: 11731)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 05:23:59 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 05:24:19 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 3670)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 26535ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 11701)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 05:24:41 -0400
+Processing by MainController#index as HTML
+Started GET "/" for 127.0.0.1 at 2021-04-03 05:25:01 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 21ms (Views: 18.9ms | ActiveRecord: 0.0ms | Allocations: 3661)
+
+
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 26855ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 11754)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 05:25:23 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 2543028ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 3732)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 12:15:41 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 6.9ms | Allocations: 475)
+Completed 200 OK in 162ms (Views: 33.0ms | ActiveRecord: 0.0ms | Allocations: 4608)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 12:15:41 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 1.5ms | Allocations: 472)
+Completed 200 OK in 32ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 4584)
+
+
+Started GET "/pools/-1/edit" for 127.0.0.1 at 2021-04-03 12:16:07 -0400
+Processing by PoolsController#edit as JS
+  Parameters: {"id"=>"-1"}
+  Rendering pools/edit.js.erb
+  Rendered pools/_form.html.erb (Duration: 184.0ms | Allocations: 16584)
+  Rendered pools/edit.js.erb (Duration: 186.6ms | Allocations: 17002)
+Completed 200 OK in 192ms (Views: 187.3ms | ActiveRecord: 1.7ms | Allocations: 18752)
+
+
+Started GET "/pools/-1/edit" for 127.0.0.1 at 2021-04-03 12:16:45 -0400
+Processing by PoolsController#edit as JS
+  Parameters: {"id"=>"-1"}
+  Rendering pools/edit.js.erb
+  Rendered pools/_form.html.erb (Duration: 10.8ms | Allocations: 6572)
+  Rendered pools/edit.js.erb (Duration: 12.8ms | Allocations: 6985)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 8755)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 12:31:11 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 534)
+  Rendered layouts/_header.html.erb (Duration: 3.8ms | Allocations: 771)
+Completed 200 OK in 37ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 6455)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 14:43:19 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 165)
+  Rendered layouts/_header.html.erb (Duration: 5.0ms | Allocations: 475)
+Completed 200 OK in 208ms (Views: 60.1ms | ActiveRecord: 0.0ms | Allocations: 4614)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 16:22:55 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 3.7ms | Allocations: 475)
+Completed 200 OK in 134ms (Views: 47.0ms | ActiveRecord: 0.0ms | Allocations: 4608)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 16:31:09 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 9.1ms | Allocations: 475)
+Completed 200 OK in 402ms (Views: 65.1ms | ActiveRecord: 0.0ms | Allocations: 4611)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 16:47:03 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 13.9ms | Allocations: 472)
+Completed 200 OK in 254ms (Views: 95.7ms | ActiveRecord: 0.0ms | Allocations: 4577)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 17:45:24 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 4.0ms | Allocations: 472)
+Completed 200 OK in 244ms (Views: 32.6ms | ActiveRecord: 0.0ms | Allocations: 4583)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 19:53:39 -0400
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 9.7ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 4.2ms | Allocations: 475)
+Completed 200 OK in 393ms (Views: 71.0ms | ActiveRecord: 0.0ms | Allocations: 4606)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 20:54:19 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 13.8ms | Allocations: 475)
+Completed 200 OK in 320ms (Views: 123.7ms | ActiveRecord: 0.0ms | Allocations: 4608)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 22:11:01 -0400
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 9.5ms | Allocations: 472)
+Completed 200 OK in 406ms (Views: 103.1ms | ActiveRecord: 0.0ms | Allocations: 4594)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-03 22:51:11 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 5.8ms | Allocations: 475)
+Completed 200 OK in 348ms (Views: 47.8ms | ActiveRecord: 0.0ms | Allocations: 4597)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-04 04:42:11 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 2.4ms | Allocations: 475)
+Completed 200 OK in 286ms (Views: 51.8ms | ActiveRecord: 0.0ms | Allocations: 4618)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-04 06:06:42 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 3.5ms | Allocations: 475)
+Completed 200 OK in 381ms (Views: 30.5ms | ActiveRecord: 0.0ms | Allocations: 4602)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-04 09:10:29 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 5.8ms | Allocations: 472)
+Completed 200 OK in 212ms (Views: 27.1ms | ActiveRecord: 0.0ms | Allocations: 4598)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-04 11:38:58 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 1.9ms | Allocations: 475)
+Completed 200 OK in 348ms (Views: 23.6ms | ActiveRecord: 0.0ms | Allocations: 4603)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-04 12:00:23 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 2.1ms | Allocations: 475)
+Completed 200 OK in 205ms (Views: 29.1ms | ActiveRecord: 0.0ms | Allocations: 4612)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-04 16:04:26 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 2.4ms | Allocations: 475)
+Completed 200 OK in 72ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 4605)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-04 17:33:55 -0400
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 1.7ms | Allocations: 475)
+Completed 200 OK in 71ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 4601)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-04 18:46:13 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 2.9ms | Allocations: 472)
+Completed 200 OK in 211ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 4589)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-04 19:43:01 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 2.2ms | Allocations: 475)
+Completed 200 OK in 82ms (Views: 42.4ms | ActiveRecord: 0.0ms | Allocations: 4601)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-04 20:11:41 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 7.4ms | Allocations: 475)
+Completed 200 OK in 263ms (Views: 48.8ms | ActiveRecord: 0.0ms | Allocations: 4606)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-04 21:10:50 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 1.5ms | Allocations: 475)
+Completed 200 OK in 455ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 4610)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-05 00:16:44 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 2.3ms | Allocations: 475)
+Completed 200 OK in 205ms (Views: 25.3ms | ActiveRecord: 0.0ms | Allocations: 4597)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-05 02:45:48 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 4.2ms | Allocations: 475)
+Completed 200 OK in 274ms (Views: 21.6ms | ActiveRecord: 0.0ms | Allocations: 4595)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-05 05:17:28 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 2.1ms | Allocations: 475)
+Completed 200 OK in 263ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 4609)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-05 11:30:01 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 21.5ms | Allocations: 453)
+  Rendered layouts/_header.html.erb (Duration: 985.0ms | Allocations: 129157)
+Completed 500 Internal Server Error in 1080ms (ActiveRecord: 0.0ms | Allocations: 134639)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `toggle_leds_path' for #<#<Class:0x00007fd4094c0ba0>:0x00007fd408b6a240>):
+    2:   <div class="row">
+    3:     <div class="col-md-6"><h1 class="display-4">LottoMiner <%= image_tag("bitcoin_icon.png") %></h1></div>
+    4:     <div class="col-md-6">
+    5:       <%= link_to toggle_leds_path, class: 'float-right', title: 'Toggle LEDs' do %>
+    6:         <% if File.exist?(Rails.root.join('LEDS_OFF')) %>
+    7:           <i class="fas fa-lightbulb"></i>
+    8:         <% else %>
+  
+app/views/layouts/_header.html.erb:5
+app/views/layouts/application.html.erb:34
+Started GET "/" for 127.0.0.1 at 2021-04-05 11:30:41 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 81)
+  Rendered layouts/_header.html.erb (Duration: 1.2ms | Allocations: 555)
+Completed 200 OK in 282ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 4733)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-05 11:31:08 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 449)
+  Rendered layouts/_header.html.erb (Duration: 1.6ms | Allocations: 941)
+Completed 200 OK in 34ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 6424)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-05 11:32:42 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 448)
+  Rendered layouts/_header.html.erb (Duration: 3.1ms | Allocations: 941)
+Completed 200 OK in 52ms (Views: 21.4ms | ActiveRecord: 0.0ms | Allocations: 6407)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-05 15:08:28 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 455)
+  Rendered layouts/_header.html.erb (Duration: 5.9ms | Allocations: 1037)
+Completed 200 OK in 179ms (Views: 29.5ms | ActiveRecord: 0.0ms | Allocations: 6586)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-05 15:15:02 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 75)
+  Rendered layouts/_header.html.erb (Duration: 13.2ms | Allocations: 603)
+Completed 200 OK in 122ms (Views: 59.0ms | ActiveRecord: 0.0ms | Allocations: 4526)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-05 17:58:01 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 6.6ms | Allocations: 603)
+Completed 200 OK in 212ms (Views: 37.2ms | ActiveRecord: 0.0ms | Allocations: 4529)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-05 18:09:13 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 5.2ms | Allocations: 603)
+Completed 200 OK in 245ms (Views: 26.3ms | ActiveRecord: 0.0ms | Allocations: 4527)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-05 21:43:02 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 2.8ms | Allocations: 603)
+Completed 200 OK in 248ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 4515)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-06 00:04:22 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 2.0ms | Allocations: 606)
+Completed 200 OK in 1239ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 4539)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-06 00:40:11 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 3.6ms | Allocations: 604)
+Completed 200 OK in 178ms (Views: 19.3ms | ActiveRecord: 0.0ms | Allocations: 4514)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-06 14:51:40 -0400
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 10.2ms | Allocations: 606)
+Completed 200 OK in 1309ms (Views: 98.5ms | ActiveRecord: 0.0ms | Allocations: 4544)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-07 13:09:19 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 606)
+  Rendered layouts/_header.html.erb (Duration: 2.8ms | Allocations: 1082)
+Completed 200 OK in 225ms (Views: 57.6ms | ActiveRecord: 0.0ms | Allocations: 10624)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-07 13:09:35 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 449)
+  Rendered layouts/_header.html.erb (Duration: 1.5ms | Allocations: 1035)
+Completed 200 OK in 123ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 5945)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-07 13:09:45 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 449)
+  Rendered layouts/_header.html.erb (Duration: 1.5ms | Allocations: 1035)
+Completed 200 OK in 309ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 5939)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-07 13:09:55 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 449)
+  Rendered layouts/_header.html.erb (Duration: 1.4ms | Allocations: 1035)
+Completed 200 OK in 29ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 5933)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-07 13:10:25 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 448)
+  Rendered layouts/_header.html.erb (Duration: 1.3ms | Allocations: 1035)
+Completed 200 OK in 296ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 5928)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-07 13:30:45 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 75)
+  Rendered layouts/_header.html.erb (Duration: 1.7ms | Allocations: 602)
+Completed 200 OK in 36ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 3944)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-07 13:32:48 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 448)
+  Rendered layouts/_header.html.erb (Duration: 2.9ms | Allocations: 1043)
+Completed 200 OK in 141ms (Views: 24.9ms | ActiveRecord: 0.0ms | Allocations: 5934)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-07 15:41:34 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 75)
+  Rendered layouts/_header.html.erb (Duration: 3.7ms | Allocations: 605)
+Completed 200 OK in 115ms (Views: 29.8ms | ActiveRecord: 0.0ms | Allocations: 3935)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-07 17:34:25 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 3.6ms | Allocations: 602)
+Completed 200 OK in 243ms (Views: 27.8ms | ActiveRecord: 0.0ms | Allocations: 3935)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-07 19:11:22 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 3.9ms | Allocations: 606)
+Completed 200 OK in 356ms (Views: 96.4ms | ActiveRecord: 0.0ms | Allocations: 3925)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-07 19:49:58 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 454)
+  Rendered layouts/_header.html.erb (Duration: 5.0ms | Allocations: 1041)
+Completed 200 OK in 121ms (Views: 24.8ms | ActiveRecord: 0.0ms | Allocations: 5951)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-07 19:50:18 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 75)
+  Rendered layouts/_header.html.erb (Duration: 1.4ms | Allocations: 602)
+Completed 200 OK in 346ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 3935)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-07 19:50:20 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 605)
+Completed 200 OK in 28ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 3931)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-07 19:50:23 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 602)
+Completed 200 OK in 80ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 3927)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-07 19:50:44 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 1.7ms | Allocations: 602)
+Completed 200 OK in 29ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 3916)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-07 19:50:45 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 602)
+Completed 200 OK in 36ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 3933)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-07 19:52:09 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 448)
+  Rendered layouts/_header.html.erb (Duration: 2.3ms | Allocations: 1041)
+Completed 200 OK in 94ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 5930)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-07 19:54:53 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 451)
+  Rendered layouts/_header.html.erb (Duration: 4.2ms | Allocations: 1043)
+Completed 200 OK in 39ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 5959)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-07 20:44:09 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 75)
+  Rendered layouts/_header.html.erb (Duration: 29.5ms | Allocations: 605)
+Completed 200 OK in 94ms (Views: 44.1ms | ActiveRecord: 0.0ms | Allocations: 3951)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-07 21:55:12 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 2.5ms | Allocations: 605)
+Completed 200 OK in 195ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 3929)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-07 22:00:13 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 5.0ms | Allocations: 602)
+Completed 200 OK in 346ms (Views: 31.3ms | ActiveRecord: 0.0ms | Allocations: 3935)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-07 22:55:13 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 4.7ms | Allocations: 602)
+Completed 200 OK in 64ms (Views: 22.7ms | ActiveRecord: 0.0ms | Allocations: 3931)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 00:03:39 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 3.0ms | Allocations: 605)
+Completed 200 OK in 287ms (Views: 22.2ms | ActiveRecord: 0.0ms | Allocations: 3946)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 03:38:48 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 6.8ms | Allocations: 605)
+Completed 200 OK in 157ms (Views: 41.6ms | ActiveRecord: 0.0ms | Allocations: 3940)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 15:20:51 -0400
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 22.5ms | Allocations: 453)
+  Rendered layouts/_header.html.erb (Duration: 18.5ms | Allocations: 962)
+Completed 200 OK in 449ms (Views: 125.9ms | ActiveRecord: 0.0ms | Allocations: 5884)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 15:22:02 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 75)
+  Rendered layouts/_header.html.erb (Duration: 5.1ms | Allocations: 554)
+Completed 200 OK in 62ms (Views: 35.0ms | ActiveRecord: 0.0ms | Allocations: 3904)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 15:22:04 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 5.2ms | Allocations: 551)
+Completed 200 OK in 37ms (Views: 17.3ms | ActiveRecord: 0.0ms | Allocations: 3893)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 15:22:20 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 1.9ms | Allocations: 551)
+Completed 200 OK in 197ms (Views: 25.0ms | ActiveRecord: 0.0ms | Allocations: 3893)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 15:23:01 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 3.2ms | Allocations: 551)
+Completed 200 OK in 219ms (Views: 19.9ms | ActiveRecord: 0.0ms | Allocations: 3889)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 15:24:27 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 2.4ms | Allocations: 551)
+Completed 200 OK in 93ms (Views: 24.1ms | ActiveRecord: 0.0ms | Allocations: 3890)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 15:24:32 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 1.8ms | Allocations: 551)
+Completed 200 OK in 338ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 3879)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 15:25:53 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 451)
+  Rendered layouts/_header.html.erb (Duration: 10.1ms | Allocations: 962)
+Completed 200 OK in 378ms (Views: 43.8ms | ActiveRecord: 0.0ms | Allocations: 5864)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 15:26:22 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 449)
+  Rendered layouts/_header.html.erb (Duration: 4.0ms | Allocations: 969)
+Completed 200 OK in 47ms (Views: 22.2ms | ActiveRecord: 0.0ms | Allocations: 5897)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 15:26:22 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 75)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 554)
+Completed 200 OK in 40ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 3910)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 15:26:47 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 448)
+  Rendered layouts/_header.html.erb (Duration: 6.7ms | Allocations: 967)
+Completed 200 OK in 295ms (Views: 25.4ms | ActiveRecord: 0.0ms | Allocations: 5869)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 15:27:19 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 448)
+  Rendered layouts/_header.html.erb (Duration: 5.7ms | Allocations: 961)
+Completed 200 OK in 451ms (Views: 23.4ms | ActiveRecord: 0.0ms | Allocations: 5853)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 15:27:35 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 448)
+  Rendered layouts/_header.html.erb (Duration: 5.6ms | Allocations: 962)
+Completed 200 OK in 299ms (Views: 28.9ms | ActiveRecord: 0.0ms | Allocations: 5869)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 15:54:08 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 75)
+  Rendered layouts/_header.html.erb (Duration: 3.9ms | Allocations: 551)
+Completed 200 OK in 203ms (Views: 24.0ms | ActiveRecord: 0.0ms | Allocations: 3904)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 15:54:11 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 2.1ms | Allocations: 551)
+Completed 200 OK in 101ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 3892)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 15:54:20 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 1.7ms | Allocations: 554)
+Completed 200 OK in 46ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 3906)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 15:54:20 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 554)
+Completed 200 OK in 26ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 3905)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 15:54:20 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 551)
+Completed 200 OK in 39ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 3880)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 15:55:22 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 1.6ms | Allocations: 551)
+Completed 200 OK in 225ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 3899)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 15:55:42 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 551)
+Completed 200 OK in 363ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 3885)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 15:56:03 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 551)
+Completed 200 OK in 232ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 3899)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 15:56:25 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 551)
+Completed 200 OK in 74ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 3896)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 15:57:18 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 1.8ms | Allocations: 551)
+Completed 200 OK in 58ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 3881)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 16:18:02 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 2.9ms | Allocations: 555)
+Completed 200 OK in 259ms (Views: 17.3ms | ActiveRecord: 0.0ms | Allocations: 3907)
+
+
+Started GET "/pools/-1/edit" for 127.0.0.1 at 2021-04-08 16:25:28 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PoolsController#edit as JS
+  Parameters: {"id"=>"-1"}
+  Rendering pools/edit.js.erb
+  Rendered pools/_form.html.erb (Duration: 155.8ms | Allocations: 16586)
+  Rendered pools/edit.js.erb (Duration: 157.9ms | Allocations: 17004)
+Completed 200 OK in 165ms (Views: 160.5ms | ActiveRecord: 1.4ms | Allocations: 18778)
+
+
+Started GET "/pools/-1/edit" for 127.0.0.1 at 2021-04-08 16:25:37 -0400
+Processing by PoolsController#edit as JS
+  Parameters: {"id"=>"-1"}
+  Rendering pools/edit.js.erb
+  Rendered pools/_form.html.erb (Duration: 9.9ms | Allocations: 6395)
+  Rendered pools/edit.js.erb (Duration: 10.2ms | Allocations: 6568)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 7193)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 18:38:46 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 79)
+  Rendered layouts/_header.html.erb (Duration: 9.0ms | Allocations: 555)
+Completed 200 OK in 136ms (Views: 65.0ms | ActiveRecord: 0.0ms | Allocations: 3915)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 18:42:31 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 2.3ms | Allocations: 555)
+Completed 200 OK in 188ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 3903)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 18:42:31 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 3.8ms | Allocations: 551)
+Completed 200 OK in 36ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 3886)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 18:42:45 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 551)
+Completed 200 OK in 110ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 3891)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 18:43:30 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 551)
+Completed 200 OK in 30ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 3891)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 18:43:31 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 551)
+Completed 200 OK in 39ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 3883)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 18:44:01 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 553)
+Completed 200 OK in 94ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 3890)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 18:44:01 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 4.2ms | Allocations: 588)
+Completed 200 OK in 41ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 4133)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 18:44:23 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 554)
+Completed 200 OK in 277ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 3895)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 18:44:25 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 551)
+Completed 200 OK in 35ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 3892)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 18:45:12 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 1.2ms | Allocations: 551)
+Completed 200 OK in 368ms (Views: 70.4ms | ActiveRecord: 0.0ms | Allocations: 3896)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 18:45:31 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 453)
+  Rendered layouts/_header.html.erb (Duration: 5.0ms | Allocations: 969)
+Completed 200 OK in 80ms (Views: 44.1ms | ActiveRecord: 0.0ms | Allocations: 5875)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 18:46:08 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 75)
+  Rendered layouts/_header.html.erb (Duration: 2.5ms | Allocations: 551)
+Completed 200 OK in 34ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 3891)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 18:46:09 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 1.8ms | Allocations: 554)
+Completed 200 OK in 38ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 3909)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 18:46:50 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 1.6ms | Allocations: 551)
+Completed 200 OK in 36ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 3890)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-08 18:46:58 -0400
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 451)
+  Rendered layouts/_header.html.erb (Duration: 9.2ms | Allocations: 4529)
+Completed 200 OK in 44ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 9445)
+
+

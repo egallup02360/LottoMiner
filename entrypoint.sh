@@ -15,6 +15,8 @@ else
     wifi-connect -s LottoMiner-Config
 fi
 
+crontab -l | echo "0 0 * * * /root/LottoMiner/update_lottominer.sh" | crontab -
+
 # Start your application here.
 cd /root/LottoMiner
 git pull
@@ -23,3 +25,7 @@ yarn install
 rbenv exec bundle exec rails assets:precompile
 rbenv exec bundle exec rails webpacker:compile
 service lottominer-web restart
+FILE=/root/LottoMiner/LEDS_OFF
+if [ ! -f "$FILE" ]; then
+  service leds start
+fi
