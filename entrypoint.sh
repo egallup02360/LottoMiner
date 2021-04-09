@@ -17,6 +17,11 @@ fi
 
 crontab -l | echo "0 0 * * * /root/LottoMiner/update_lottominer.sh" | crontab -
 
+FILE=/root/cgminer.conf
+if [ ! -f "$FILE" ]; then
+  cp /root/LottoMiner/cgminer.conf /root/cgminer.conf
+fi
+
 # Start your application here.
 cd /root/LottoMiner
 git pull

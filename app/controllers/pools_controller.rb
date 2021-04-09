@@ -21,8 +21,8 @@ class PoolsController < ApplicationController
 
   def update
     @pool = Pool.new(pool_params)
-    add_pool = CgminerApi.call("addpool|stratum+tcp://#{@pool.url},#{@pool.user},#{@pool.pass}")
-    save_config = CgminerApi.call("save|/root/LottoMiner/cgminer.conf")
+    add_pool = CgminerApi.call("addpool|stratum+tcp://#{@pool.url},#{@pool.user},#{@pool.pass.gsub(",", '\,')}")
+    save_config = CgminerApi.call("save|/root/cgminer.conf")
     flash[:success] = "Pool has been added."
     redirect_to root_url
   end
@@ -30,11 +30,15 @@ class PoolsController < ApplicationController
   def make_active
     CgminerApi.call("enablepool|#{params[:id]}")
     pools = CgminerApi.call("pools")["POOLS"]
+    disabled_pools = []
     pools.each do |pool|
       next if pool["POOL"].to_s == params[:id].to_s
       CgminerApi.call("disablepool|#{pool["POOL"]}")
+      disabled_pools << pool["POOL"]
     end
-    CgminerApi.call("save|/root/LottoMiner/cgminer.conf")
+    CgminerApi.call("poolpriority|#{params[:id]}\\,#{disabled_pools.join('\,')}")
+    CgminerApi.call("save|/root/cgminer.conf")
+
     flash[:success] = "Pool has been activated"
     redirect_to root_url
   end

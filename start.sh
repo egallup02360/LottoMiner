@@ -1,2 +1,2 @@
-screen -dmS cgminer cgminer -c cgminer.conf
+screen -dmS cgminer cgminer -c /root/cgminer.conf
 trap 'sleep infinity' EXIT
