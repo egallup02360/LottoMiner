@@ -10,5 +10,5 @@ yarn-debug.log*
 .yarn-integrity
 Procfile.dev
 .rbenv-vars
-db/*
-log/*
+/db
+/log
