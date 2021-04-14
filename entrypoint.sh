@@ -4,9 +4,9 @@
 # sometimes. In this case, following checks will fail and wifi-connect
 # will be launched even if the device will be able to connect to a WiFi network.
 # If this is your case, you can wait for a while and then check for the connection.
-sleep 20
+sleep 30
 
-nmcli -t g | grep full
+wget --spider http://google.com 2>&1
 
 if [ $? -eq 0 ]; then
     printf 'Skipping WiFi Connect\n'
