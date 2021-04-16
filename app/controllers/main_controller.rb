@@ -10,8 +10,8 @@ class MainController < ApplicationController
   end
 
   def reconfigure_wifi
-    system("sh #{Rails.root.join('reconfigure_wifi.sh')}")
-    flash[:success] = "This webpage will be shut down shortly. Then you will need to connect to the network 'LottoMiner-Config' to reconfigure your wifi connection."
+    fork { system("sh #{Rails.root.join('reconfigure_wifi.sh')}") }
+    flash[:success] = "Your LottoMiner will now reboot. When it turns back on, you will need to connect to the network 'LottoMiner-Config' to configure your wifi connection."
     redirect_to root_url
   end
 
