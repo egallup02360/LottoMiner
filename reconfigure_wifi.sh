@@ -1,4 +1,3 @@
+rm -rf /etc/NetworkManager/system-connections/*.nmconnection
 sleep 5
-service lottominer-web stop
-sleep 5
-wifi-connect -s LottoMiner-Config
+sudo reboot now
