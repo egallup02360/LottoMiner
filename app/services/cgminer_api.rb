@@ -6,7 +6,7 @@ class CgminerApi
     api_command = command.split("|")
 
     if Rails.env.development?
-    	api_ip = "192.168.1.160"
+    	api_ip = "lottominer.local"
     	api_port = 4028
     else
       api_ip = "127.0.0.1"

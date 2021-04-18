@@ -1,47 +1,39 @@
 <% unless @not_running %>
   <div class="container">
-    <ul class="nav nav-tabs">
-      <li class="nav-item"><a data-target="#main" data-toggle="tab" class="nav-link active">Pools</a></li>
-      <li class="nav-item"><a data-target="#devices" data-toggle="tab" class="nav-link">Devices</a></li>
-    </ul>
-    <div class="tab-content">
-      <div id="main" class="tab-pane fade show active">
-        <div class="row">
-          <div class="col-md-10"><h2>Pools</h2></div>
-          <div class="col-md-2">
-            <%= link_to edit_pool_path(-1), { remote: true, 'data-toggle' =>  "modal", 'data-target' => '#mainModal' } do %>
-              <i class="fas fa-plus-square fa-2x text-success float-right"></i>
-            <% end %>
-          </div>
-        </div>
-        <table class="table table-sm table-hover">
-          <thead>
-            <th>URL</th>
-            <th>User</th>
-            <th>Status</th>
-            <th>Active</th>
-            <th>Actions</th>
-          </thead>
-          <tbody>
-            <% @pools.each do |pool| %>
-              <tr data-id="<%= pool["POOL"] %>">
-                <td><%= pool["URL"] %></td>
-                <td><%= pool["User"] %></td>
-                <td><%= pool["Status"] %></td>
-                <td><%= pool["Stratum Active"] %></td>
-                <td>
-                  <% unless pool["Stratum Active"] %>
-                    <%= link_to pool_path(pool["POOL"]), method: :delete, data: { confirm: "Are you sure you want to remove this pool?" } do %>
-                      <i class="fa fa-trash text-success"></i>
-                    <% end %>
-                    <%= link_to "Make Active Pool", make_pool_active_path(pool["POOL"]) %>
-                  <% end %>
-                </td>
-              </tr>
-            <% end %>
-          </tbody>
-        </table>
+    <div class="row">
+      <div class="col-md-10"><h2>Pools</h2></div>
+      <div class="col-md-2">
+        <%= link_to edit_pool_path(-1), { remote: true, 'data-toggle' =>  "modal", 'data-target' => '#mainModal' } do %>
+          <i class="fas fa-plus-square fa-2x text-success float-right"></i>
+        <% end %>
       </div>
     </div>
+    <table class="table table-sm table-hover">
+      <thead>
+        <th>URL</th>
+        <th>User</th>
+        <th>Status</th>
+        <th>Active</th>
+        <th>Actions</th>
+      </thead>
+      <tbody>
+        <% @pools.each do |pool| %>
+          <tr data-id="<%= pool["POOL"] %>">
+            <td><%= pool["URL"] %></td>
+            <td><%= pool["User"] %></td>
+            <td><%= pool["Status"] %></td>
+            <td><%= pool["Stratum Active"] %></td>
+            <td>
+              <% unless pool["Stratum Active"] %>
+                <%= link_to pool_path(pool["POOL"]), method: :delete, data: { confirm: "Are you sure you want to remove this pool?" } do %>
+                  <i class="fa fa-trash text-success"></i>
+                <% end %>
+                <%= link_to "Make Active Pool", make_pool_active_path(pool["POOL"]) %>
+              <% end %>
+            </td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
   </div>
 <% end %>
